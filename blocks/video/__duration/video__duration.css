@@ -1,0 +1,15 @@
+.video__duration {
+    margin: 0 0 .75rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: .75rem;
+    line-height: .8rem;
+    font-weight: 500;
+    letter-spacing: .3em;
+}
+
+@media screen and (max-width: 768px) {
+    .video__duration {
+        margin: 0 0 .5rem;
+    }
+}

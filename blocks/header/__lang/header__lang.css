@@ -1,0 +1,20 @@
+.header__lang {
+    margin: 0;
+    padding: 0 0 0.75rem;
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: min-content;
+    grid-column-gap: 1.125rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+    line-height: 1.4375rem;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 425px) {
+    .header__lang {
+        grid-column-gap: 1rem;
+        font-size: 1.125rem;
+        line-height: 1.0625rem;
+    }
+}
