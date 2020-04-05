@@ -1,0 +1,65 @@
+@import url('../video-item/__bg-image/video-item__bg-image.css');
+@import url('../video-item/__duration/video-item__duration.css');
+@import url('../video-item/__icon/video-item__icon.css');
+@import url('../video-item/__subtitle/video-item__subtitle.css');
+@import url('../video-item/__text/video-item__text.css');
+@import url('../video-item/__title/video-item__title.css');
+.video-item {
+    min-height: 323px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 5px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.video-item::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-radius: 5px;
+    background-color: #000;
+    opacity: .3;
+    transition: opacity .3s ease-in;
+}
+
+.video-item:hover::before {
+    opacity: .5;
+}
+
+@media screen and (max-width: 1280px) {
+    .video-item {
+        min-height: 25.313vw;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .video-item {
+        min-height: 28.125vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video-item {
+        min-height: 26.042vw;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .video-item {
+        min-height: 53.305vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video-item {
+        min-height: 60vw;
+    }
+}

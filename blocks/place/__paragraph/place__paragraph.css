@@ -1,0 +1,29 @@
+.place__paragraph {
+    margin: 0 0 2.25rem;
+    grid-column: 2;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}
+
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .place__paragraph {
+        width: 90%;
+        margin: 1.5rem auto;
+        grid-column: 1;
+        font-size: 1rem;
+        line-height: 1.6875rem;
+    }
+    .place__paragraph:first-of-type {
+        margin-bottom: 0;
+    }
+}

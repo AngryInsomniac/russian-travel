@@ -1,0 +1,36 @@
+.video-item__bg-image {
+    width: 100%;
+    min-height: 323px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1280px) {
+    .video-item__bg-image {
+        min-height: 25.313vw;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .video-item__bg-image {
+        min-height: 28.125vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video-item__bg-image {
+        min-height: 26.042vw;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .video-item__bg-image {
+        min-height: 53.305vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video-item__bg-image {
+        min-height: 60vw;
+    }
+}
