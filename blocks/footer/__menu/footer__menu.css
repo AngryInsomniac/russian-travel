@@ -17,7 +17,8 @@
         grid-template-rows: repeat(5, min-content);
         grid-row-gap: 2rem;
         font-size: 1.5rem;
-        line-height: normal;
+        line-height: 41px;
+        /*По макету line-height 41px, отступ 32px, визуально такие параметры дают почему-то больший отступ...*/
     }
 }
 

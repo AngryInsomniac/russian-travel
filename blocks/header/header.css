@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (max-width: 425) {
+@media screen and (max-width: 425px) {
     .header {
         padding-top: 1rem;
     }

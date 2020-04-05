@@ -15,7 +15,6 @@
 @media screen and (max-width: 1024px) {
     .video {
         width: 90.625%;
-        padding-bottom: 4rem;
     }
 }
 
@@ -28,6 +27,7 @@
 @media screen and (max-width: 375px) {
     .video {
         max-width: 343px;
+        padding-bottom: 4rem;
     }
 }
 

@@ -15,13 +15,21 @@
     }
 }
 
+
+/*Я в макете вижу, что до 768px размер шрифта и высота строки 16px и 27px соответственно, а 18px и 30px начинаются с 1024px*/
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 1rem;
+        line-height: 1.6875rem;
+    }
+}
+
 @media screen and (max-width: 639px) {
     .place__paragraph {
         width: 90%;
         margin: 1.5rem auto;
         grid-column: 1;
-        font-size: 1rem;
-        line-height: 1.6875rem;
     }
     .place__paragraph:first-of-type {
         margin-bottom: 0;
