@@ -1,1 +1,10 @@
-.footer__item {}
+.footer__item {
+    padding-right: 18px;
+    list-style: none;
+}
+
+@media screen and (max-width: 750px) {
+    .footer__item {
+        margin-bottom: 32px;
+    }
+}

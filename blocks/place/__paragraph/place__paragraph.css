@@ -15,9 +15,6 @@
     }
 }
 
-
-/*Я в макете вижу, что до 768px размер шрифта и высота строки 16px и 27px соответственно, а 18px и 30px начинаются с 1024px*/
-
 @media screen and (max-width: 768px) {
     .place__paragraph {
         font-size: 1rem;

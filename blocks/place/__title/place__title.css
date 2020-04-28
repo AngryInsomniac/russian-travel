@@ -3,6 +3,7 @@
     margin: 0 0 3.75rem;
     padding: 0;
     grid-row: 1;
+    align-self: end;
     grid-column: 1;
     font-size: 4.5rem;
     line-height: 4rem;

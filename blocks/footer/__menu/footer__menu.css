@@ -1,24 +1,17 @@
 .footer__menu {
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(5, min-content);
-    grid-column-gap: 18px;
-    justify-items: start;
-    align-items: end;
-    list-style-type: none;
+    display: flex;
     font-size: 1.5rem;
     line-height: 2.5rem;
 }
 
 @media screen and (max-width: 750px) {
     .footer__menu {
-        grid-template-columns: min-content;
-        grid-template-rows: repeat(5, min-content);
-        grid-row-gap: 2rem;
+        flex-direction: column;
         font-size: 1.5rem;
-        line-height: 41px;
-        /*По макету line-height 41px, отступ 32px, визуально такие параметры дают почему-то больший отступ...*/
+        line-height: 1.5rem;
+        /*Все-таки ошибка старого макета. Там было значение 41px, с ним верстка не совпадала с макетом, давала больший промежуток. У нового потока line-height: 24px стоит, визуально совпадая со старым макетом, но при верстке давая правильный результат.*/
     }
 }
 

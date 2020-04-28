@@ -4,6 +4,8 @@
     position: relative;
     grid-column: 1;
     grid-row: 1/3;
+    /*Поставил object-fit, чтобы не было искажения пропорций картинки*/
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1280px) {
